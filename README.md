@@ -18,20 +18,27 @@ This is the **Node.js + Express.js backend** for the Feedback Collection Applica
 
 ## Folder Structure
 
+```
 backend/
-├── controllers/
-│ └── feedbackController.js # Logic for fetching and submitting feedback
-├── models/
-│ └── Feedback.js # Mongoose schema definition
-├── routes/
-│ └── feedbackRoutes.js # Routes for feedback API
-├── .env.example # Sample environment file
-├── server.js # Entry point for backend server
-├── package.json # Project metadata and scripts
-└── README.md
-
+├── controllers/              # Contains logic for handling request/response
+│   └── feedbackController.js
+│
+├── models/                   # Mongoose schemas for MongoDB collections
+│   └── Feedback.js
+│
+├── routes/                   # API route definitions
+│   └── feedbackRoutes.js
+│
+├── .env.example              # Sample environment configuration
+├── .gitignore                # Git ignore rules
+├── package.json              # Project metadata and dependencies
+├── package-lock.json         # Exact dependency tree lockfile
+├── server.js                 # Entry point for the Express server
+└── README.md                 # Documentation for backend setup
+```
 
 ---
+
 
 ## Getting Started
 
